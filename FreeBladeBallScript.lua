@@ -1,20 +1,20 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Paine Hub",
+    Name = "c4xk RF V2",
     LoadingTitle = "Blade Ball Game",
-    LoadingSubtitle = "by Paine",
+    LoadingSubtitle = "by cfxk",
     ConfigurationSaving = {
        Enabled = false,
        FolderName = nil, -- Create a custom folder for your hub/game
        FileName = "BLadeBallNam"
     },
     Discord = {
-       Enabled = true,
+       Enabled = false,
        Invite = "PaineHub", -- The Discord invite code, do not include discord.gg/Paine discord.gg/ABCD would be ABCD
-       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
     },
-    KeySystem = true, -- Set this to true to use our key system
+    KeySystem = false, -- Set this to true to use our key system
     KeySettings = {
        Title = "Paine Blade Ball | Key",
        Subtitle = "Key In Discord Server!",
