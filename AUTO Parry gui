@@ -242,7 +242,7 @@ TextLabel.Size = UDim2.new(0, 230, 0, 25)
 
 TextLabel.Font = Enum.Font.SourceSans
 
-TextLabel.Text = "Blade Ball Skidded Auto Parry - nfpw"
+TextLabel.Text = "Auto Parry By c5xk on discord"
 
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 
