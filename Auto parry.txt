@@ -1,0 +1,42 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create("NovaX")
+
+---Tabs---
+
+
+local tab1 = window:CreateTab("Admin Commands")
+
+---buttons---
+
+tab1:CreateButton("Infinite Yield", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+tab1:CreateTextbox("Change your Speed", function(a)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+print(a)
+end)
+
+tab1:CreateTextbox("Change your Jumppower", function(a)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = a
+print(a)
+end)
+
+
+
+---WARING---
+
+tab1:CreateWarning("Warning")
+
+---Tabs---
+
+
+local tab1 = window:CreateTab("Auto Parryies")
+
+
+
+---buttons---
+
+tab1:CreateButton("Auto parry", function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Blade-Ball-Opensource-autoparry-8123"))()
+end)
