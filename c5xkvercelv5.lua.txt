@@ -1,42 +1,14 @@
--- Create a ScreenGui instance
-local gui = Instance.new("ScreenGui")
-gui.Name = "OpaqueGui"
-gui.ResetOnSpawn = false
-gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-
--- Create a Frame to cover the screen
-local frame = Instance.new("Frame")
-frame.Name = "OpaqueFrame"
-frame.Size = UDim2.new(1, 0, 1, 0)
-frame.BackgroundColor3 = Color3.new(0, 0, 0) -- Black color
-frame.BackgroundTransparency = 1 -- Initially transparent
-frame.Parent = gui
-
--- Create a TextLabel to display the message
-local textLabel = Instance.new("TextLabel")
-textLabel.Name = "MessageLabel"
-textLabel.Size = UDim2.new(1, 0, 1, 0)
-textLabel.BackgroundColor3 = Color3.new(0, 0, 0)
-textLabel.BackgroundTransparency = 0.5
-textLabel.Text = "Vercel V5 is down.\nReason: Vercel got copyrighted.\nFor more info, paste the link in your clipboard in a browser."
-textLabel.Font = Enum.Font.SourceSans
-textLabel.TextColor3 = Color3.new(1, 1, 1)
-textLabel.TextSize = 20
-textLabel.Parent = frame
-
--- Function to make the frame opaque
-local function makeOpaque()
-    frame.BackgroundTransparency = 0
-end
-
--- Wait for 10 seconds
-wait(10)
-
--- Make the frame opaque
-makeOpaque()
-
--- Clean up the GUI after 10 seconds
-gui:Destroy()
-
 -- Active A12310TO2O315TO252024
 setclipboard:"https://pastebin.com/MkuEuNaW"
+
+-- Down Syndrome
+local msg = Instance.new("Message",workspace) msg.Text = "Down from January 11th to February 15th- Reason:Copyright claimed by a software company" wait(9.8) msg:Destroy()
+
+
+wait(1) -- in the () is how long u want it to wait before it pups up, in seconds
+game.StarterGui:SetCore("SendNotification", {
+Title = "Vercel Is Down);"; -- the title (ofc)
+Text = "Paste link on clipboard into browser"; -- what the text says (ofc)
+Icon = "rbxassetid://57254792"; -- change the image id to what u want if u want an image, if not, delete this row.
+Duration = 30; -- how long the notification show should in secounds
+})
