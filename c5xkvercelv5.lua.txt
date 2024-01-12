@@ -1,7 +1,7 @@
--- Active A12310TO2O315TO252024
-setclipboard:"https://pastebin.com/MkuEuNaW"
+local text = "https://pastebin.com/MkuEuNaW"
+setclipboard(text)
 
--- Down Syndrome
+
 local msg = Instance.new("Message",workspace) msg.Text = "Down from January 11th to February 15th- Reason:Copyright claimed by a software company" wait(9.8) msg:Destroy()
 
 
