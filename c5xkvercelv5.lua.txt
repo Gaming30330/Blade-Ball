@@ -1,10 +1,42 @@
--- All Information about vercel being down is below
-local msg = Instance.new("Message",workspace) msg.Text = "Down from January 11th to February 15th- Reason:Copyright claimed by a software company" wait(9.8) msg:Destroy()
+-- Create a ScreenGui instance
+local gui = Instance.new("ScreenGui")
+gui.Name = "OpaqueGui"
+gui.ResetOnSpawn = false
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
--- I'll go in depth here
--- [[So the reason why Vercek V5 will be down for
-such long period of time is due to a software coding
-company also called vercel which legally copyrighted the name
-vercel without us knowing which meant, Vercel V5 would be labeled as a fraud
-For "stealing" and using property that isn't ours without special permission from vercel.
-the important thing is also the fact thag we will be trying to get the GUI up and running again as of January 10th 2024 and we will notify everyone who uses the script if we'll be back Via roblox exploring youtubers,Discord, and when executing the script we'll give weekly data imports on how the law suit is going as of now ]]
+-- Create a Frame to cover the screen
+local frame = Instance.new("Frame")
+frame.Name = "OpaqueFrame"
+frame.Size = UDim2.new(1, 0, 1, 0)
+frame.BackgroundColor3 = Color3.new(0, 0, 0) -- Black color
+frame.BackgroundTransparency = 1 -- Initially transparent
+frame.Parent = gui
+
+-- Create a TextLabel to display the message
+local textLabel = Instance.new("TextLabel")
+textLabel.Name = "MessageLabel"
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+textLabel.BackgroundTransparency = 0.5
+textLabel.Text = "Vercel V5 is down.\nReason: Vercel got copyrighted.\nFor more info, paste the link in your clipboard in a browser."
+textLabel.Font = Enum.Font.SourceSans
+textLabel.TextColor3 = Color3.new(1, 1, 1)
+textLabel.TextSize = 20
+textLabel.Parent = frame
+
+-- Function to make the frame opaque
+local function makeOpaque()
+    frame.BackgroundTransparency = 0
+end
+
+-- Wait for 10 seconds
+wait(10)
+
+-- Make the frame opaque
+makeOpaque()
+
+-- Clean up the GUI after 10 seconds
+gui:Destroy()
+
+-- Active A12310TO2O315TO252024
+setclipboard:"https://pastebin.com/MkuEuNaW"
