@@ -2,7 +2,7 @@ local text = "https://pastebin.com/MkuEuNaW"
 setclipboard(text)
 
 
-local msg = Instance.new("Message",workspace) msg.Text = "Down from January 11th to February 15th- Reason:Copyright claimed by a software company" wait(9.8) msg:Destroy()
+local msg = Instance.new("Message",workspace) msg.Text = "Down from January 10th to February 15th-25th- Reason:Copyright claimed by a software company" wait(9.8) msg:Destroy()
 
 
 wait(1) -- in the () is how long u want it to wait before it pups up, in seconds
